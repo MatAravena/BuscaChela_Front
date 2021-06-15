@@ -1,0 +1,25 @@
+
+
+Spread & rest operators
+
+... 
+
+Spread (Used to split up array elements or objects properties)
+const newArray = [...oldArray, 1, 2];
+const newObject = [...oldObject, newProps:5];
+
+Rest (Used to merge a list of function arguments into an array)
+function sortArgs(...args){
+    return args.sort();
+}
+
+Destructuring
+Easily extract array elements or objects properties and store them in variables
+
+Array Destructuring
+[a,b] = ["Hello","Matutin"]
+
+Objects Destructuring
+{name} = {name:"Matutin", age:33}
+
+
